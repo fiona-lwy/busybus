@@ -117,3 +117,8 @@ h2 {
   font-size: 0.8em;
   float: right;
 }
+
+.line {
+  padding: 5px 0;
+  border-bottom: 1px solid grey;
+}
