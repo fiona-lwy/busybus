@@ -1,0 +1,119 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: green;
+  width: 375px;
+}
+
+.statusbar {
+  background-image: url("../images/Base.jpg");
+  background-size: contain;
+  width: 100%;
+  height: 20px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+nav {
+  background-color: green;
+  margin: 0 auto;
+  padding: 15px 0 15px 15px;
+  position: center fixed;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 500;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.leftarrow {
+  color: white;
+  font-size: 1.1em;
+  float: left;
+}
+
+.map {
+  background-image: url("../images/map.jpg");
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+}
+
+.buslist {
+  margin: 0 auto;
+  width: 375px;
+  background-color: white;
+  padding: 2px;
+}
+
+.row {
+  padding: 10px;
+  width: 100%;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 1em;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.busnumber {
+  font-size: 1em;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 15%;
+  text-align: center;
+  float: left;
+}
+
+.destination {
+  width: 60%;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bolder;
+  padding: 2px 0;
+  font-size: 0.9em;
+}
+
+.frequency {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 0.7em;
+  color: darkgrey;
+}
+
+.time {
+  font-weight: bold;
+  padding: 5px 5px 5px 0;
+  font-size: 0.9em;
+  width: 10%;
+  text-align: right;
+}
+
+.icon {
+  padding: 10px 0;
+  font-size: 0.8em;
+  float: right;
+}
