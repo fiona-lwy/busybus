@@ -15,14 +15,11 @@ body {
 }
 
 .statusbar {
-  background-image: url("../images/Base.jpg");
-  background-size: contain;
+  background-image: url("../images/statusbar.png");
+  background-size: cover;
+  position: center fixed;
   width: 100%;
-  height: 20px;
-}
-
-.inline {
-  display: inline-block;
+  height: 13px;
 }
 
 .block {
@@ -31,10 +28,16 @@ body {
 
 nav {
   background-color: green;
-  margin: 0 auto;
-  padding: 15px 0 15px 15px;
   position: center fixed;
   width: 100%;
+  height: 45px;
+}
+
+.fa-chevron-left {
+  padding: 15px 0 15px 15px;
+  color: white;
+  font-size: 1em;
+  float: left;
 }
 
 h1 {
@@ -42,57 +45,65 @@ h1 {
   color: white;
   font-size: 1.1em;
   text-align: center;
-}
-
-.leftarrow {
-  color: white;
-  font-size: 1.1em;
-  float: left;
+  padding: 15px 25px 0 0;
 }
 
 .map {
   background-image: url("../images/map.jpg");
-  background-size: contain;
+  background-size: cover;
+  display: block;
+  float: left;
+  box-shadow: 0 3px 4px lightgrey;
   width: 100%;
   height: 400px;
 }
 
 .buslist {
-  margin: 0 auto;
   width: 375px;
   background-color: white;
   padding: 2px;
 }
 
 .row {
-  padding: 10px;
+  padding: 0 3px;
   width: 100%;
+  height: 50px;
+  clear: both;
+}
+
+.row:hover {
+  background-color: lightgrey;
 }
 
 h2 {
   font-weight: bolder;
+  width: 100%;
   font-size: 1em;
-  text-align: left;
-  padding: 5px 10px;
+  float: left;
+  padding: 20px 0 5px 10px;
 }
 
 .busnumber {
   font-size: 1em;
-  font-weight: 500;
-  padding: 10px 0;
-  width: 15%;
+  font-weight: bold;
+  padding: 17px 10px 10px 17px;
   text-align: center;
+  width: 10%;
   float: left;
 }
 
 .destination {
   width: 60%;
-  padding: 5px 10px;
-  text-align: left;
+  padding: 7px 0 7px 25px;
+  float: left;
+}
+
+p {
+  margin: 2px 0;
 }
 
 .bold {
-  font-weight: bolder;
+  font-weight: 500;
   padding: 2px 0;
   font-size: 0.9em;
 }
@@ -101,24 +112,113 @@ h2 {
   font-weight: lighter;
   font-style: italic;
   font-size: 0.7em;
-  color: darkgrey;
+  color: grey;
 }
 
 .time {
   font-weight: bold;
-  padding: 5px 5px 5px 0;
+  padding: 17px 0 10px 30px;
   font-size: 0.9em;
+  width: 20%;
+  float: left;
+  color: green;
+  text-shadow: 2px 1px 1px lightgrey;
+}
+
+.fa-chevron-right {
+  padding: 19px 10px 10px 10px;
   width: 10%;
-  text-align: right;
-}
-
-.icon {
-  padding: 10px 0;
   font-size: 0.8em;
+  color: darkgreen;
   float: right;
+  text-shadow: 1px 1px 1px lightgrey;
 }
 
-.line {
-  padding: 5px 0;
-  border-bottom: 1px solid grey;
+.borderline {
+  width: 100%;
+  border-top: 1px solid lightgrey;
+}
+
+
+@media screen and (min-width: 575px) {
+
+.container {
+  width: 575px;
+}
+
+.statusbar {
+  width: 575px;
+  height: 21px;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+}
+
+.fa-chevron-left {
+  font-size: 130%;
+  padding: 20px 0 20px 20px;
+}
+
+h1 {
+  font-size: 130%;
+  padding: 20px 25px 0 0;
+}
+
+.map {
+  background-image: url("../images/map.jpg");
+  background-size: cover;
+  display: block;
+  float: left;
+  box-shadow: 0 3px 4px lightgrey;
+  width: 575px;
+  height: 600px;
+}
+
+.buslist {
+  width: 575px;
+  padding: 5px;
+}
+
+.row {
+  display: inline-block;
+  padding: 0 5px;
+  width: 46%;
+  margin: 1%;
+  height: 60px;
+}
+
+h2 {
+  font-size: 1.2em;
+  padding: 25px 0 7px 15px;
+}
+
+.busnumber {
+  font-size: 1em;
+  width: 5%;
+  padding: 22px 5px 10px 2px;
+}
+
+.destination {
+  width: 68%;
+  padding: 13px 10px 15px 30px;
+  float: left;
+}
+
+.time {
+  padding: 23px 0 10px 9px;
+  width: 21%;
+  font-size: 1em;
+}
+
+.fa-chevron-right {
+  padding: 24px 0 10px 3px;
+  width: 5%;
+  font-size: 0.9em;
+  }
+
+p {
+  margin: 3px 0;
+}
 }
