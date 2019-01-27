@@ -71,10 +71,6 @@ h1 {
   clear: both;
 }
 
-.row:hover {
-  background-color: lightgrey;
-}
-
 h2 {
   font-weight: bolder;
   width: 100%;
