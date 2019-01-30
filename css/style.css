@@ -5,7 +5,7 @@
 body {
   background-color: black;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: "SF Pro Text", sans-serif;
 }
 
 .container {
@@ -122,12 +122,11 @@ p {
 
 .time {
   font-weight: bold;
-  padding: 22px 0 10px 30px;
+  padding: 22px 0 10px 28px;
   font-size: 1em;
   width: 20%;
   float: left;
   color: #066A4C;
-  text-shadow: 2px 1px 1px lightgrey;
 }
 
 .fa-chevron-right {
