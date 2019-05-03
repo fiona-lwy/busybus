@@ -1,4 +1,4 @@
-BusyBus is a public transit app to solve the problem of below.
+BusyBus is a public transit app to solve the problem below.
 
 Problem: Riders are currently complaining the most about the bus stop at Washington and State, which has seven bus lines serving the stop.
 
