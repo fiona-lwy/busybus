@@ -1,4 +1,4 @@
-BusyBus is a public transit app to solve the problem below.
+_BusyBus_ is a **Public Transit App** to solve the problem below.
 
 **Problem:**
 
