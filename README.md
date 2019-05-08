@@ -1,10 +1,9 @@
 # BusyBus
 
-_BusyBus_ is a **Public Transit App** to solve the problem below.
+_BusyBus_ is a **Public Transit App**, showing the next arriving bus to solve the problem of too many bus lines serving the same stop
 
-**Problem:**
+**Solutions:**
 
-Riders are currently complaining the most about the bus stop at Washington and State, which has seven bus lines serving the stop.
 With this app, users can check what the next arriving bus is and expected arrival time, so that they do not need to rush to the bus stop. The work includes research, design, prototype and execution.
 
 **Deliverables:**
